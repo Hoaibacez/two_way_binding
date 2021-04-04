@@ -1,7 +1,5 @@
 function Label(Props) {
-    return (
-            <label htmlFor={Props.id}>{Props.children}</label>
-    )
+  return <label htmlFor={Props.id}>{Props.children}</label>;
 }
 
-export default Label
+export default Label;

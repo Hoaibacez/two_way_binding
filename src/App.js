@@ -14,25 +14,25 @@ function App() {
     <div className="App">
       <Form
         id="fullName"
-        children="FullName :"
+        children="FullName"
         value={fullName}
         func={(e) => setFullName(e.target.value)}
       />
       <Form
         id="email"
-        children="Email :"
+        children="Email"
         value={email}
         func={(e) => setEmail(e.target.value)}
       />
       <Form
         id="password"
-        children="password :"
+        children="password"
         value={password}
         func={(e) => setPassword(e.target.value)}
       />
       <TextArea
         id="address"
-        children="Address :"
+        children="Address"
         value={address}
         func={(e) => setAddress(e.target.value)}
       />
